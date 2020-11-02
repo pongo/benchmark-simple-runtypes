@@ -25,3 +25,5 @@ simple-runtypes:
 simple-runtypes incorrect:
   4 202 ops/s, ±5.81%       | slowest, 99.65% slower
 ```
+
+![chart](https://user-images.githubusercontent.com/142528/97901834-c1709400-1d4d-11eb-8066-09f72aad211d.png)
