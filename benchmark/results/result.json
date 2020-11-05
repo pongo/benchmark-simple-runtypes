@@ -1,31 +1,31 @@
 {
   "name": "vals",
-  "date": "2020-11-02T17:44:32.649Z",
+  "date": "2020-11-05T14:09:43.315Z",
   "version": "1.0.0",
   "results": [
     {
       "name": "io-ts",
-      "ops": 411687,
-      "margin": 3.41,
-      "percentSlower": 65.23
+      "ops": 473114,
+      "margin": 1.77,
+      "percentSlower": 68.96
     },
     {
       "name": "io-ts incorrect",
-      "ops": 337105,
-      "margin": 2.82,
-      "percentSlower": 71.53
+      "ops": 375343,
+      "margin": 2.32,
+      "percentSlower": 75.37
     },
     {
       "name": "simple-runtypes",
-      "ops": 1184016,
-      "margin": 3.22,
+      "ops": 1524091,
+      "margin": 3.48,
       "percentSlower": 0
     },
     {
       "name": "simple-runtypes incorrect",
-      "ops": 4202,
-      "margin": 5.81,
-      "percentSlower": 99.65
+      "ops": 1021229,
+      "margin": 1.75,
+      "percentSlower": 32.99
     }
   ],
   "fastest": {
@@ -33,7 +33,7 @@
     "index": 2
   },
   "slowest": {
-    "name": "simple-runtypes incorrect",
-    "index": 3
+    "name": "io-ts incorrect",
+    "index": 1
   }
 }

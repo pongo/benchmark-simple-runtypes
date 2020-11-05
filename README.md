@@ -14,16 +14,16 @@
 
 ```
 io-ts:
-  411 687 ops/s, ±3.41%     | 65.23% slower
+  473 114 ops/s, ±1.77%     | 68.96% slower
 
 io-ts incorrect:
-  337 105 ops/s, ±2.82%     | 71.53% slower
+  375 343 ops/s, ±2.32%     | slowest, 75.37% slower
 
 simple-runtypes:
-  1 184 016 ops/s, ±3.22%   | fastest
+  1 524 091 ops/s, ±3.48%   | fastest
 
 simple-runtypes incorrect:
-  4 202 ops/s, ±5.81%       | slowest, 99.65% slower
+  1 021 229 ops/s, ±1.75%   | 32.99% slower
 ```
 
-![chart](https://user-images.githubusercontent.com/142528/97901834-c1709400-1d4d-11eb-8066-09f72aad211d.png)
+![chart](https://user-images.githubusercontent.com/142528/98253135-b86d0600-1f8b-11eb-82e7-bdefda0d29ed.png)
