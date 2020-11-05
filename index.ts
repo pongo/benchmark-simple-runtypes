@@ -27,12 +27,5 @@ export function makeSR(): ValidatorFn {
   });
   // type Message = ReturnType<typeof messageST>;
 
-  return (msg) => {
-    try {
-      messageST(msg);
-      return true;
-    } catch {
-      return false;
-    }
-  };
+  return (msg) => st.use(messageST, msg).ok;
 }
